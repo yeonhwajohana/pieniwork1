@@ -1,0 +1,146 @@
+body {
+  box-sizing: border-box;
+  width:360px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+.header {
+  background-color: #fbbe2c;
+  width: 100%;
+  height: 100px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.search {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 46px;
+  border-radius: 2em;
+  position:relative;
+  top: -23px;
+  left: 40px;
+  box-shadow: 0px 3px rgba(0,0,0,0.2);
+  color: rgba(0,0,0,0.5)
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+main {
+  padding-left: 20px;
+}
+
+.book-today-contents {
+  display: flex;
+  justify-content: space-between;
+}
+.book-today-contents-photo {
+  width: 110px;
+  height: 160px;
+  background-color: tomato;
+  border-radius: 1em;
+}
+.book-today-contents-info{
+  margin-bottom: 40px;
+}
+.book-today-contents-info-title {
+  font-size: 20px;
+  font-weight: 550;
+  padding-bottom: 10px;
+}
+.book-today-contents-info-author {
+  color: rgba(0,0,0,0.5);
+  padding-bottom: 10px;
+}
+.book-today-contents-info-rate {
+  color:#fbbe2c;
+  padding-bottom: 20px;
+}
+.book-today-contents-info-genre {
+  padding-bottom: 20px;
+}
+.book-today-contents-info-genre span{
+  background-color: whitesmoke;
+  padding: 5px 10px 5px 10px;
+  border-radius: 1em;
+}
+.book-today-contents-info-buttons span {
+  padding: 5px 10px 5px 10px;
+}
+.book-today-contents-info-buttons-bookmark {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #fbbe2c;
+  margin-right: 30px;
+}
+.book-today-contents-info-buttons-purchase {
+  color:white;
+  background-color: black;
+  border-radius: 1em;
+}
+
+.top-adventures-lists {
+  width:360px;
+  height: 180px;
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: row;
+  margin-right: 0px;
+  margin-bottom: 10px;
+}
+.top-adventures-lists-list {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-adventures-lists-list-photo {
+  width: 80px;
+  height: 110px;
+  background-color: tomato;
+  border-radius: 1em;
+  margin-bottom: 5px;
+}
+.top-adventures-lists-list-rate {
+  font-size: x-small;
+  color: #fbbe2c;
+}
+
+
+.popular-authors-contents {
+  display: flex;
+  justify-content: space-between;
+}
+.popular-authors-contents-photo {
+  width: 110px;
+  height: 140px;
+  background-color: tomato;
+  border-radius: 1em;
+}
+.popular-authors-contents-info{
+  margin-bottom: 40px;
+}
+.popular-authors-contents-info-author {
+  font-size: 20px;
+  font-weight: 550;
+  padding-bottom: 5px;
+}
+.popular-authors-contents-info-explain {
+  position: block;
+  width: 180px;
+  color: rgba(0,0,0,0.2);
+}
